@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* 全体 */
+
 :root {
     font-size: 15px;
     line-height: 25px;
@@ -7,11 +9,14 @@
 
 body {
     line-height: 1.6666667rem;
+    color: #150201;
+    background-color: #cee2df;
+    
 }
 
-/* ヘッダー */
 a {
-    color:#333333;
+    color: #00213b;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -27,8 +32,14 @@ a img {
     border: none;
 }
 
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: #cee2df;
+}
+
 h2 {
     font-size: 2.0rem;
+    font-weight: bold;
     margin: 0 0 1rem;
 }
 
@@ -58,7 +69,8 @@ section {
 }
 
 footer {
-    background-color: #F6F6F6;
+    color: #cee2df;
+    background-color: #00213b;
 }
 
 .work-contents img {
@@ -83,6 +95,10 @@ header {
     background-size: cover;
     background-position: center center;
     height: 520px;
+}
+
+.header-nav ul {
+    list-style: none;
 }
 
 #my-photo {
